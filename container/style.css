@@ -1,0 +1,371 @@
+.top
+{
+   display: block;
+   position: relative;
+   height: 94vh;
+   width: 100%;
+   background-color:#e4f9f5;
+}
+div{
+    display: block;
+}
+.cloud-a
+{
+    position: relative;
+    left: 1300px;
+    top: 40px;
+}
+.cloud-b
+{
+    position: absolute;
+    top: 350px;
+    left: 90px;
+}
+
+h1{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Satisfy', cursive;
+    top: 100px;
+    letter-spacing: 0.5px;
+}
+h2{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+    top: 80px;
+    letter-spacing: 4px; 
+}
+.under-line
+{
+    text-decoration: underline;
+}
+
+.mountain{
+    display: block;
+    position: relative;
+    top: 120px;
+    left: 29%;
+
+
+}
+
+.middle-container {
+    display: inline-block; /* or display: inline; */
+    text-align: center; /* Center the content horizontally */
+    width: 100%; /* Ensure the container takes up the full width */
+    background-color: #f0f0f0;
+  }
+  
+  .middle-container>img {
+    display: block; /* Remove any residual inline behavior for the image */
+    margin: 100px auto; /* Center the image vertically and horizontally */
+    border-radius: 50%;
+  }
+.middle-container h2 
+{
+    color: #34a490;
+}
+.text2 p 
+{
+    margin-top: 90px;
+    text-align: center;
+    font-size: large;
+}
+
+h3
+{
+    font-size: xx-large;
+    color: #208674;
+    letter-spacing: 4px;
+    margin-top: 150px;
+    text-align: center;
+}
+h4
+{
+    color: #000000;
+    font-size: 2em;
+}
+.skills1
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left:100px ;
+    
+}
+
+.skills>h2{
+    padding-bottom: 130px;
+    text-align: center;
+
+}
+
+.text>h4 
+{
+    float: left;
+    margin-top: 5px;
+    font-size: xx-large;
+    margin-left: 45px;
+    color: #208674;
+
+}
+.text>p
+{
+    margin-top: 85px;
+    margin-left: 45px;
+    font-size: 1.3em; 
+    text-align: left;
+}
+
+.skills2
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    margin-right: 100px;
+
+}
+.skills2>img{
+    margin-right: 50px;
+    
+}
+.text1>h4
+{
+    float: left;
+    margin-top: 5px;
+    font-size: xx-large;
+    margin-left: 0px;
+    color: #208674;
+    margin-bottom: 0;
+}
+.text1>p
+{
+   text-align: left;
+   margin-left: 0px;
+   font-size: 1.3em;
+   margin-top:70px;
+ 
+}
+
+.git>h4
+{
+    margin-top: 150px;
+    font-size: 2.5em;
+    color: #208674;
+}
+
+.git>h5
+{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #208674;
+
+}
+
+.git>p
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn
+{
+    margin-top: 100px;
+    border-radius: 8px;
+    background-color:#208674; 
+    padding: 10px 10px 10px 30px;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: xx-large;
+    transition-duration: .3s;
+    margin-bottom: 80px;
+}
+.btn:hover
+{
+    background-color: #0a3d34;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #e4f9f5;
+}
+
+.bottom
+{
+    background-color: #208674;
+    height: 20vh;
+}
+
+.bottom>.web
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 600px;
+    
+}
+
+.bottom>.web>p>.linkedin
+{
+    transition-duration: .4s;
+}
+
+.bottom>.web>p>.linkedin:hover
+{
+    color: #0e76a8;
+}
+
+.bottom>.web>p>.twitter
+{
+    transition-duration: .4s;
+}
+.bottom>.web>p>.twitter:hover
+{
+    color: #26a7de;
+}
+
+.bottom>.web>p>.facebook
+{
+    transition-duration: .4s;
+}
+.bottom>.web>p>.facebook:hover
+{
+    color: #3b5998;
+}
+
+
+
+.web>p{
+    margin-top: 40px;
+}
+
+.bottom>p
+{
+    display: flex;
+    justify-content: space-around;
+    color: #e4f9f5;
+}
+
+/* Default styles for larger screens */
+/* ... (your existing CSS code) */
+
+/* Media query for screens with a maximum width of 768px (typical for tablets) */
+@media (max-width: 768px) 
+{
+    .container
+    {
+        height: auto;
+    }
+    .cloud-a
+    {
+        left: 30%;
+    }
+    .cloud-b
+    {
+        display: none;
+    }
+    .mountain
+    {
+        height: 130px;
+        display: flex;
+        margin-top: 160px;
+        left: 155px;
+    }
+    .bottom>.web
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50%;
+        
+    }
+    .bottom>.web>p
+    {
+        margin-right: 13px;
+    }       
+    
+
+}
+
+/* Media query for screens with a maximum width of 576px (typical for mobile phones) */
+@media (max-width: 576px) {
+    .cloud-a
+    {
+        top: 80px;
+    }
+    .cloud-b
+    {
+        display: none;
+    }
+    .mountain
+    {
+        display: none;
+    }
+    .top
+    {
+        height: 70vh;
+    }
+    .top>h1,h2
+    {
+        font-size: 2em;
+    }
+    .top>.mountain 
+    {
+        height: 80px;
+        margin-top: 160px;
+        margin-right: 6600px;
+    }
+    .skills1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills1>.giif>img
+    {
+        height: 180px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+    }
+    .skills1>.text{
+        margin-right: 100px;
+
+    }
+    .skills1>.text>p
+    {
+        font-size: 1.5em;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .skills2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .skills2>img
+    {
+        height: 180px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    .skills2>.text1
+    {
+        display: flex;
+        flex-direction: column;   
+    }
+  
+  
+  
+}
+
+
